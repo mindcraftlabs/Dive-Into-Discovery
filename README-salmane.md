@@ -1,13 +1,13 @@
 # RUN 1:
 
-### Attachment 1:
+1) Attachment 1:
 
-### Photos of attachment:
+2) Photos of attachment:
 
-### BOM List:
+3) BOM List:
 
-### Developing of mechanisms:
+4) Developing of mechanisms:
 
-### Code:
+5) Code:
 
-### Performance Video:
+6) Performance Video:

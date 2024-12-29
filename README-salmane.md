@@ -2,6 +2,8 @@
 
 1) Attachment 1:
 
+----
+
 2) Photos of attachment:
 
 3) BOM List:

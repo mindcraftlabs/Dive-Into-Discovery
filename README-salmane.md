@@ -5,10 +5,13 @@
 ----
 
 2) Photos of attachment:
+----
 
 3) BOM List:
+----
 
 4) Developing of mechanisms:
+----
 
 5) Code:
 
@@ -57,6 +60,7 @@ def RUN1():
     move(-45)
     turn(-90)
 ```
+----
 
 
 6) Performance Video:

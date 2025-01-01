@@ -1,21 +1,10 @@
 test
-RUN 1:
-
-1) Description:
-
-----
-
-2) Photos of attachment:
+ Photos of attachment:
 ![attachment](
 
-3) BOM List:
-----
+BOM List:
 
-4) Developing of mechanisms:
-----
+Code:
 
-5) Code:
-
-
-
-6) Performance Video:
+Performance Video:
+![video](

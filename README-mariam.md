@@ -23,10 +23,11 @@ def RUN3():
     move(-150, 700, 600)
     turn(46)
 class A3:
-        def trident_open(angle):
+         def trident_open(angle):
             back_motor.run_angle(800, angle)
-''' 
------
+``` 
+----
 
-Performance Video:
-![video](
+
+Performance video:
+----

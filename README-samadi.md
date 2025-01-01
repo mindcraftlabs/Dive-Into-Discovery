@@ -19,7 +19,23 @@ This custom-built attachment is designed specifically for the FLL Submerged 2025
 5) Code:
 
 ```python
-
+def RUN2():
+    gyro(True)
+    run_task(Attachments.A2.multitask1())
+    turn(30)
+    move(400, 700, 600)
+    turn(60)
+    move(210, 800, 700)
+    move(-140, 700, 600)
+    turn(115)
+    move(-160, 700, 600)
+    turn(-26)
+    move(-130, 900, 800)
+    Attachments.A2.diver_open(1150)
+    move(100, 700, 600)
+    turn(30)
+    move(640, 900, 800)
+    turn(-120)
 ```
 ----
 

@@ -8,7 +8,7 @@ This custom-built attachment is designed specifically for the FLL Submerged 2025
 ----
 
 3) BOM List:
-   
+![attachment] (https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/fdbdce570765d9fb3e1ccabbd1588ddb8f390700/images/attachment%20samadi%20and%20ghacha.png)
 ----
 
 4) Developing of mechanisms:

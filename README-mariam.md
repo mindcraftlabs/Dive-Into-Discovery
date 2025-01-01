@@ -5,8 +5,7 @@ test
 BOM List:
 
 Code:
-''' python
-
+```python
 def RUN3():
     gyro(True)
     turn(70)

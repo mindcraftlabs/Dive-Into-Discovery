@@ -1,10 +1,15 @@
-test
- Photos of attachment:
+#RUN3
+ 
+
+Photos of attachment:
 ![attachment](
+----
 
 BOM List:
+-----
 
 Code:
+----
 ```python
 def RUN3():
     gyro(True)
@@ -20,9 +25,8 @@ def RUN3():
 class A3:
         def trident_open(angle):
             back_motor.run_angle(800, angle)
+''' 
+-----
 
-
-Performance Video:
-![video](
 Performance Video:
 ![video](

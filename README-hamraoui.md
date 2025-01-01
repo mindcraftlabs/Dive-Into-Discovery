@@ -5,11 +5,10 @@ Performance Video:
 ![video](
 # RUN 3:
 
- Description:
-
+ description:
 ----
 
- Photos of attachment:
+ photos of attachement:
 ----
 
  BOM List:
@@ -19,7 +18,8 @@ Developing of mechanisms:
 ----
 
  Code:
-////
+----
+
 ```python
 def RUN3():
     gyro(True)
@@ -35,8 +35,9 @@ def RUN3():
 class A3:
         def trident_open(angle):
             back_motor.run_angle(800, angle)
-```
+``` 
 ----
 
 
- Performance Video:
+Performance video:
+----

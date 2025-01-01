@@ -1,8 +1,7 @@
 
 
 
-Performance Video:
-![video](
+
 # RUN 3:
 
  description:

@@ -1,12 +1,372 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dive into Discovery</title>
-    <link rel="stylesheet" href="./css/styles.css">
-  </head>
-  <body>
-    <h1> Hello World! </h1>
-  </body>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Dive Into Discovery</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <!-- <link href="css/grayscale.min.css" rel="stylesheet"> -->
+  <link href="css/grayscale.css" rel="stylesheet">
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160261800-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160261800-1');
+</script>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <a class="navbar-brand" href="#">
+      <img id="logo" src="img/logo_combined.webp"  alt="" height="80">
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto pl-4">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#model">3D Model</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#specifications">Specifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section id="overview" class="masthead">
+    <div class="container-fluid h-100">
+      <div class="container-fluid text-center">
+        <img id="exomy_image" class="img-fluid" src="img/logo_notitle_transparent.webp" alt="" style="max-height: 60vh;"></img>
+      </div>
+      <div class="container-fluid text-center">
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">HydroBot, developed by the Minecraft team, is a robot designed to tackle pollution and educate children about environmental conservation. It promotes awareness and encourages young people to engage in protecting the planet.</h2>
+        <button  onclick=" window.open('https://github.com/esa-prl/ExoMy/wiki')" class="btn btn-primary">Dive More!</button >
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center bg-black">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h1 class="text-white mb-4">Who is HydroBot?</h1>
+          <h2 class="text-secondary">The HydroBot is an innovative robot developed by the MindCraft Team, designed to tackle pollution problems and educate children about environmental conservation. This robot showcases advanced technologies, including the use of 3D printing for its development, ensuring a highly efficient and sustainable design.</h2>
+          <h2 class="text-secondary">Check out the 3D model below.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Model Section -->
+  <section id="model" class="model-section bg-black">
+    <div  class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">3D Model</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10">
+          <style>
+            :not(:defined) > :not(.poster) {
+              display: none;
+            }
+            model-viewer#reveal {
+              display: block;
+              --poster-color: transparent;
+            }
+            .poster {
+              display: flex;
+              justify-content: center;
+              align-items: center; 
+              height: 100%;
+              top: 0;
+              left: 0;
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            }
+          </style>
+          <model-viewer id="reveal" src="3d_models/ExoMy.glb" alt="A 3D model of an astronaut"
+            auto-rotate camera-controls stage-light-intensity="1" preload 
+            shadow-intensity="3" exposure="0.1"
+            camera-orbit="0deg 90deg 1m" field-of-view="45deg"
+            >
+            <div class="poster" slot="poster" style="background-image: url(img/poster.png);"></div>
+            <h2 class="text-white">Zoom and Rotate</h2>
+          </model-viewer>
+        </div>
+        <div id="scrollbar" class="col-2 text-center">
+          <h2 class="bg-gradient-warning text-white">Scroll here!</h2>
+          <i class="fa fa-4x fa-arrow-down text-white mb-4"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specifications section -->
+  <section id="specifications" class="specifications-section bg-black">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="text-white mb-4">Specifications</h1>
+        </div>
+      </div>
+      <div class="row text-center align-items-center">
+        <div class="col-lg-3 col-md-6 text-center">
+          <i class="fa fa-4x fa-euro-sign text-white mb-4"></i>
+          <h3 class="text-white mb-2">Price</h3>
+          <p class="lead text-secondary mb-0"> 250-500€</p>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <i class="fa fa-4x fa-ruler text-white mb-4"></i>
+          <h3 class="text-white mb-2">Size</h3>
+          <p class="text-secondary mb-0"> 300x390x420mm</p>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <i class="fa fa-4x fa-weight-hanging text-white mb-4"></i>
+          <h3 class="text-white mb-2">Weight</h3>
+          <p class="text-secondary mb-0"> 2,5kg</p>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <i class="fa fa-4x fa-battery-full text-white mb-4"></i>
+          <h3 class="text-white mb-2">Endurance</h3>
+          <p class="text-secondary mb-0"> 3h</p>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center mt-5">
+        <div class="col-lg-12 col-md-12 text-center">
+          <img class="img-fluid" src="img/architecture_overview.png" alt=""></img>
+          <h3 class="text-white mb-2 mt-2">Open Source</h3>
+          <p class="text-secondary mb-0">ExoMy is 100% open source.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section bg-black">
+    <div class="container">
+
+      <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="text-white mb-4">Features</h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <video autoplay loop muted playsinline width="100%">  
+            <source src="img/loco_modes.mp4" type="video/mp4">  
+          </video>  
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <p class="text-white">Locomotion Modes</p>
+                <p class="mb-0 text-white-50">Six steerable wheels allow Ackermann, Spot Turn and Crabbing locomotion modes.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/hats.gif" width="100%" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <p class="text-white">Style</p>
+                <p class="mb-0 text-white-50">Give ExoMy his own personality with various mouths and hats!</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <video autoplay loop muted playsinline width="100%">  
+            <source src="img/one_stone.mp4" type="video/mp4">  
+          </video>  
+          <video autoplay loop muted playsinline width="100%">  
+            <source src="img/slab.mp4" type="video/mp4">  
+          </video>  
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <p class="text-white">Driving Capabilities</p>
+                <p class="mb-0 text-white-50">The triple bogie suspension system allows ExoMy to overcome obstacles.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section bg-black pb-5">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-5">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-github text-primary mb-2"></i>
+              <p class="text-uppercase m-0">GitHub</p>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="https://github.com/esa-prl/ExoMy">https://github.com/esa-prl/ExoMy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-5">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <p class="text-uppercase m-0">Contact</p>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="mailto:robotics@esa.int">robotics@esa.int</a>
+              </div>
+              <div class="small text-black-50">
+                <a href="mailto:max.ehrhardt@hotmail.de">Maximilian Ehrhardt</a>
+              </div>
+              <div class="small text-black-50">
+                <a href="mailto:miro@voellmy.com">Miro Voellmy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-5">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fa fa-book text-primary mb-2"></i>
+              <p class="text-uppercase m-0">Wiki</p>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="https://github.com/esa-prl/ExoMy/wiki">https://github.com/esa-prl/ExoMy/wiki</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-5">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-instagram text-primary mb-2"></i>
+              <p class="text-uppercase m-0">Instagram</p>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="https://www.instagram.com/exomy_rover/">@ExoMy_Rover</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-5">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-discord text-primary mb-2"></i>
+              <p class="text-uppercase m-0">Discord</p>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="https://discord.gg/gZk62gg">Join the Community!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-5">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-twitter text-primary mb-2"></i>
+              <p class="text-uppercase m-0">Twitter</p>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="https://twitter.com/exomy_rover">@ExoMy_Rover</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Your Website 2019
+    </div>
+  </footer> -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
+
 </html>

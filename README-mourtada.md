@@ -8,6 +8,7 @@
 ----
 
 3) BOM List:
+![Bom List A2](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/images/Bom%20List%20A2.png)
 ----
 
 4) Developing of mechanisms:

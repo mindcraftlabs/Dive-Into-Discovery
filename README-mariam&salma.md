@@ -1,17 +1,24 @@
-#RUN3
- 
 
-Photos of attachment:
-![attachment](
+
+# RUN 4:
+
+ description:
 ----
 
-BOM List:
------
-
-Code:
+ photos of attachement:
 ----
+
+ BOM List:
+----
+
+Developing of mechanisms:
+----
+
+ Code:
+----
+
 ```python
-def RUN3():
+def RUN4():
     gyro(True)
     turn(70)
     move(635, 700, 600)
@@ -23,7 +30,7 @@ def RUN3():
     move(-150, 700, 600)
     turn(46)
 class A3:
-         def trident_open(angle):
+        def trident_open(angle):
             back_motor.run_angle(800, angle)
 ``` 
 ----

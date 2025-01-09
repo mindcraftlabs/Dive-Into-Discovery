@@ -20,18 +20,25 @@ Developing of mechanisms:
 ```python
 def RUN4():
     gyro(True)
+    move(200, 400, 250)
+    move(-270, 500, 400)
     turn(70)
-    move(635, 700, 600)
-    turn(-26)
-    move(140, 700, 600)
-    Attachments.A3.trident_open(-900)
-    move(-15, 700, 600)
-    Attachments.A3.trident_open(700)
-    move(-150, 700, 600)
-    turn(46)
-class A3:
-        def trident_open(angle):
-            back_motor.run_angle(800, angle)
+    move(655, 600, 500)
+    turn(-25)
+    gyro(False)
+    move(75,500, 350)
+    gyro(True)
+    Attachments.A4.trident_open(-4050)
+    Attachments.A4.trident_open(4150)
+    move(-120, 700, 600)
+    turn(45),
+    move(1250, 700, 600)
+
+
+
+
+
+
 ``` 
 ----
 

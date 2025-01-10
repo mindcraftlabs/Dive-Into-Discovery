@@ -17,7 +17,6 @@
 5) Code:
 
 ```python
-def RUN2():
     gyro(True)
     turn(27)
     move(-548, 700, 500) 

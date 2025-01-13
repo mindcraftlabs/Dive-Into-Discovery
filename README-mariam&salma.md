@@ -2,11 +2,11 @@
 
 # RUN 4:
 
- description:
+ Description:
 ----
 A multifunctional robot attachment designed to handle multiple missions efficiently. It transports the shark (M02) to its target area, removes the reef segments (M03), handles and removes both trident parts (M14)
 
- photos of attachement:
+ Photos of attachement:
 ----
 
  BOM List:

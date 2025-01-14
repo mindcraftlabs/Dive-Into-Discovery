@@ -21,6 +21,7 @@
   <!-- Custom styles for this template -->
   <!-- <link href="css/grayscale.min.css" rel="stylesheet"> -->
   <link href="css/grayscale.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/mindcraft logo.jpg" type="image/x-icon">
 
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
@@ -41,8 +42,8 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <a class="navbar-brand" href="#">
-      <img id="logo" src="img/logo_combined.webp"  alt="" height="80">
+    <a class="navbar-brand" href="index.html">
+      <img id="logo" src="img/logo test hydro bot.png" alt="" height="80">
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
@@ -51,20 +52,24 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto pl-4">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+          <a class="nav-link js-scroll-trigger" href="index.html#overview">Overview</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#model">3D Model</a>
+          <a class="nav-link js-scroll-trigger" href="index.html#model">3D Model</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#specifications">Specifications</a>
+          <a class="nav-link js-scroll-trigger" href="index.html#specifications">Specifications</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+          <a class="nav-link js-scroll-trigger" href="index.html#features">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          <a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="game.html">Game</a>
+        </li>
+        </ul>
       </ul>
     </div>
   </nav>
@@ -73,11 +78,11 @@
   <section id="overview" class="masthead">
     <div class="container-fluid h-100">
       <div class="container-fluid text-center">
-        <img id="exomy_image" class="img-fluid" src="img/logo_notitle_transparent.webp" alt="" style="max-height: 60vh;"></img>
+        <img id="exomy_image" class="img-fluid" src="img/robot-removebg-preview.png" alt="" style="max-height: 60vh;"></img>
       </div>
       <div class="container-fluid text-center">
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">HydroBot, developed by the Minecraft team, is a robot designed to tackle pollution and educate children about environmental conservation. It promotes awareness and encourages young people to engage in protecting the planet.</h2>
-        <button  onclick=" window.open('https://github.com/esa-prl/ExoMy/wiki')" class="btn btn-primary">Dive More!</button >
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">HydroBot, developed by the Minecraft team, is a robot designed to tackle pollution and educate children about environmental conservation.</h2>
+        <button  onclick=" window.open('https://github.com/mindcraftlabs/Dive-Into-Discovery')" class="btn btn-primary">Dive More!</button >
       </div>
     </div>
   </section>
@@ -85,11 +90,14 @@
   <!-- About Section -->
   <section id="about" class="about-section text-center bg-black">
     <div class="container-fluid">
-      <div class="row">
         <div class="col-lg-12 mx-auto">
           <h1 class="text-white mb-4">Who is HydroBot?</h1>
-          <h2 class="text-secondary">The HydroBot is an innovative robot developed by the MindCraft Team, designed to tackle pollution problems and educate children about environmental conservation. This robot showcases advanced technologies, including the use of 3D printing for its development, ensuring a highly efficient and sustainable design.</h2>
-          <h2 class="text-secondary">Check out the 3D model below.</h2>
+          <h2 class="text-secondary">The HydroBot is an innovative robot developed by the MindCraft Team, designed to tackle pollution problems and educate children about environmental conservation. This robot showcases advanced technologies, including the use of 3D printing for its development, ensuring a highly efficient and sustainable design, It promotes awareness and encourages young people to engage in protecting the planet.</h2>
+          <div class="prob">
+          <h1 class="text-white mb-4">Problematic</h1>
+          <h2 class="text-secondary">Pollution is a global crisis affecting our air, water, and ecosystems, driving climate change and endangering health and biodiversity. From plastic-choked oceans to smog-filled cities, its impact is widespread and urgent, demanding immediate action to protect our planet and future generations.</h2>
+          <h1 class="text-white mb-4">Solution</h1>
+          <h2 class="text-secondary">Ocean cleanup robots are autonomous systems designed to collect pollutants like plastic and chemicals from the water. They efficiently cover large areas, work in hard-to-reach places, and operate with minimal human intervention. Their advantages include reducing pollution, protecting marine life, and supporting ecosystem restoration.</h2>
         </div>
       </div>
     </div>
@@ -125,12 +133,12 @@
               background-position: center;
             }
           </style>
-          <model-viewer id="reveal" src="3d_models/ExoMy.glb" alt="A 3D model of an astronaut"
+          <model-viewer id="reveal" src="3d_models/robot.glb" alt="A 3D model of an astronaut"
             auto-rotate camera-controls stage-light-intensity="1" preload 
             shadow-intensity="3" exposure="0.1"
             camera-orbit="0deg 90deg 1m" field-of-view="45deg"
             >
-            <div class="poster" slot="poster" style="background-image: url(img/poster.png);"></div>
+            <div class="poster" slot="poster" style="background-image: url(img/front\ hydro\ bot.png);"></div>
             <h2 class="text-white">Zoom and Rotate</h2>
           </model-viewer>
         </div>
@@ -154,7 +162,7 @@
         <div class="col-lg-3 col-md-6 text-center">
           <i class="fa fa-4x fa-euro-sign text-white mb-4"></i>
           <h3 class="text-white mb-2">Price</h3>
-          <p class="lead text-secondary mb-0"> 250-500€</p>
+          <p class="lead text-secondary mb-0"> 370-400€</p>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <i class="fa fa-4x fa-ruler text-white mb-4"></i>
@@ -176,7 +184,7 @@
         <div class="col-lg-12 col-md-12 text-center">
           <img class="img-fluid" src="img/architecture_overview.png" alt=""></img>
           <h3 class="text-white mb-2 mt-2">Open Source</h3>
-          <p class="text-secondary mb-0">ExoMy is 100% open source.</p>
+          <p class="text-secondary mb-0">HydroBot is 100% open source.</p>
         </div>
       </div>
     </div>
@@ -194,16 +202,14 @@
 
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <video autoplay loop muted playsinline width="100%">  
-            <source src="img/loco_modes.mp4" type="video/mp4">  
-          </video>  
+          <img class="img-fluid" src="img/robot_solar_panel.png" width="100%" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <p class="text-white">Locomotion Modes</p>
-                <p class="mb-0 text-white-50">Six steerable wheels allow Ackermann, Spot Turn and Crabbing locomotion modes.</p>
+                <p class="text-white">Solar Panel</p>
+                <p class="mb-0 text-white-50">Green and clean source of energy using solar Panel!</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -213,14 +219,14 @@
 
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/hats.gif" width="100%" alt="">
+          <img class="img-fluid" src="img/camera_robot1.png" width="100%" alt="">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <p class="text-white">Style</p>
-                <p class="mb-0 text-white-50">Give ExoMy his own personality with various mouths and hats!</p>
+                <p class="text-white">Artificial intelligence</p>
+                <p class="mb-0 text-white-50">Real time image processing with artificial Intelligence using python openCV 2!</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -242,8 +248,8 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <p class="text-white">Driving Capabilities</p>
-                <p class="mb-0 text-white-50">The triple bogie suspension system allows ExoMy to overcome obstacles.</p>
+                <p class="text-white">Trash collecting</p>
+                <p class="mb-0 text-white-50">Our robot have a big net so it can easily collect all the trash around.</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -254,101 +260,105 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section bg-black pb-5">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-4 mb-3 mb-md-5">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fab fa-github text-primary mb-2"></i>
-              <p class="text-uppercase m-0">GitHub</p>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="https://github.com/esa-prl/ExoMy">https://github.com/esa-prl/ExoMy</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-5">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <p class="text-uppercase m-0">Contact</p>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="mailto:robotics@esa.int">robotics@esa.int</a>
-              </div>
-              <div class="small text-black-50">
-                <a href="mailto:max.ehrhardt@hotmail.de">Maximilian Ehrhardt</a>
-              </div>
-              <div class="small text-black-50">
-                <a href="mailto:miro@voellmy.com">Miro Voellmy</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-5">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fa fa-book text-primary mb-2"></i>
-              <p class="text-uppercase m-0">Wiki</p>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="https://github.com/esa-prl/ExoMy/wiki">https://github.com/esa-prl/ExoMy/wiki</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row">
-        <div class="col-md-4 mb-3 mb-md-5">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fab fa-instagram text-primary mb-2"></i>
-              <p class="text-uppercase m-0">Instagram</p>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="https://www.instagram.com/exomy_rover/">@ExoMy_Rover</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-5">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fab fa-discord text-primary mb-2"></i>
-              <p class="text-uppercase m-0">Discord</p>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="https://discord.gg/gZk62gg">Join the Community!</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-5">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fab fa-twitter text-primary mb-2"></i>
-              <p class="text-uppercase m-0">Twitter</p>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="https://twitter.com/exomy_rover">@ExoMy_Rover</a>
-              </div>
-            </div>
-          </div>
+<!--Form Section-->
+<section id="form" class="form-section bg-light pb-5">
+  <div class="container">
+    <div class="card py-4 h-100">
+      <div class="card-body text-center">
+        <h1>Interested in joining us? Fill out our form:</h1>
+        <div class="text-center">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfd61gadsEqsqpTDz1Aq5lXINbhjCIhmMzcbHpIHCvgcOdXSA/viewform "" target="_blank" class="btn btn-primary mt-3">Go to Form</a>
         </div>
       </div>
-
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section bg-black pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3 mb-md-5">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fab fa-github text-primary mb-2"></i>
+            <p class="text-uppercase m-0">GitHub</p>
+            <p class="text-uppercase m-0">Make out Robot</p>
+            <hr class="my-4">
+            <div class="small text-black-50">
+              <a href="https://github.com/mindcraftlabs/Dive-Into-Discovery"target="_blank">https://github.com/mindcraftlabs/Dive-Into-Discovery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 mb-md-5">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-envelope text-primary mb-2"></i>
+            <p class="text-uppercase m-0">Contact</p>
+            <hr class="my-4">
+            <div class="small text-black-50">
+              <a href="mailto:info@mindcraft.ma">info@mindcraft.ma</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 mb-md-5">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fa fa-book text-primary mb-2"></i>
+            <p class="text-uppercase m-0">Facebook</p>
+            <hr class="my-4">
+            <div class="small text-black-50">
+              <a href="https://www.facebook.com/mindcraft.ma"target="_blank">https://www.facebook.com/mindcraft.ma</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 mb-md-5">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fab fa-instagram text-primary mb-2"></i>
+            <p class="text-uppercase m-0">Instagram</p>
+            <hr class="my-4">
+            <div class="small text-black-50">
+              <a href="https://www.instagram.com/mindcraft.ma/"target="_blank">https://www.instagram.com/mindcraft.ma/</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 mb-md-5">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fab fa-discord text-primary mb-2"></i>
+            <p class="text-uppercase m-0">Discord</p>
+            <hr class="my-4">
+            <div class="small text-black-50">
+              <a href="https://discord.gg/EskwStzs"target="_blank">Join the Community!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 mb-md-5">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fab fa-twitter text-primary mb-2"></i>
+            <p class="text-uppercase m-0">MindCraft</p>
+            <hr class="my-4">
+            <div class="small text-black-50">
+              <a href="https://www.mindcraft.ma/"target="_blank">https://www.mindcraft.ma/</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Footer -->
   <!-- <footer class="bg-black small text-center text-white-50">

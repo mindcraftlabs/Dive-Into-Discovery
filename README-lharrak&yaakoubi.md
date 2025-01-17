@@ -17,16 +17,24 @@
 5) Code:
 
 ```python
-    gyro(True)
-    turn(27)
-    move(-548, 700, 500) 
-    turn(63)
-    move(225, 300, 100) 
-    run_task(Attachments.A2.multitask1())
-    move(-230, 700, 600) 
-    turn(-60)
-    gyro(False)
-    move(600, 700, 600) 
+gyro(True)
+    move(190, 700, 600)
+    turn(-25)
+    move(530, 700, 600)
+    turn(45)
+    move(65, 700, 600)
+    turn(25)
+    move(180, 700, 600)
+    Attachments.A5.krill_open(-700)
+    wait(1000)
+    Attachments.A5.krill_open(800)
+    move(-135, 700, 600)
+    turn(45)
+    move(-163, 700, 600)
+    Attachments.A5.green_open(2750)
+    Attachments.A5.green_open(-800)
+    turn(65)
+    move(900, 700, 600)
 ```
 ----
 

@@ -363,3 +363,105 @@ footer {
 .custom-margin {
   margin-bottom: 10px; /* Adjust the value as needed */
 }
+
+/* Team Section */
+#team {
+  padding: 60px 0;
+  background: #343a40; /* Same background as about section */
+  color: #fff; /* Same text color as about section */
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 400px; /* Increased height */
+  perspective: 1000px;
+  margin-bottom: 30px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #5ea4bc;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.flip-card-back h1 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.flip-card-back h2 {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.flip-card-back h3 {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.flip-card-back .social-icons {
+  margin-top: 10px;
+}
+
+.flip-card-back .social-icons a {
+  color: white;
+  font-size: 24px;
+  margin: 0 1px; /* Further reduced margin */
+}
+
+.flip-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Center the last two team members */
+.center-last-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .flip-card {
+    margin-bottom: 20px;
+  }
+}

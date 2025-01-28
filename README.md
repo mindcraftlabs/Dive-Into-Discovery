@@ -23,7 +23,7 @@
 | 2        | Sunnysky Brushless DC Motor           | ![Sunnysky Brushless DC Motor](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(2).png?raw=true)              |
 | 4        | Filament PLA+| ![Filament](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(1).png?raw=true) |
 | 1        | Lipo Batterie 3s 2200mah        | ![Lipo Batterie 3s 2200mah](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(3).png?raw=true)           |
-| 3        | Logo® Technic™ Ultrasonic Sensor   | ![Logo® Technic™ Ultrasonic Sensor](https://github.com/DexterTaha/WRO-2024-FUTURE-ENGINEERS/assets/130682580/e8e2d6ac-bb61-4a2b-bb90-486233006838)      |
+| 1        | batterei lipo voltage level indicateur   | ![batterei lipo voltage level indicateur]([https://github.com/DexterTaha/WRO-2024-FUTURE-ENGINEERS/assets/130682580/e8e2d6ac-bb61-4a2b-bb90-486233006838](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(4).png?raw=true))      |
 | 280      | Logo® Technic™ spare pieces        | ![efw](https://github.com/DexterTaha/WRO-2024-FUTURE-ENGINEERS/assets/130682580/5115e60b-d975-47cc-acee-51f2e9d34bb0)                                   |
 
 ## Contribution

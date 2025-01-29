@@ -24,7 +24,7 @@
 | 4        | Filament PLA+| ![Filament](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(1).png?raw=true) |
 | 1        | Lipo Batterie 3s 2200mah        | ![Lipo Batterie 3s 2200mah](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(3).png?raw=true)           |
 | 1        | batterei lipo voltage level indicateur   | ![batterei lipo voltage level indicateur](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(4).png?raw=true)      |
-| 280      | Electrical Speed Control        | ![Electrical Speed Control](https://github.com/DexterTaha/WRO-2024-FUTURE-ENGINEERS/assets/130682580/5115e60b-d975-47cc-acee-51f2e9d34bb0)                                   |
+| 2        | Electrical Speed Control        | ![Electrical Speed Control](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(6).png?raw=true)                                   |
 
 ## Contribution
 <p align="center">

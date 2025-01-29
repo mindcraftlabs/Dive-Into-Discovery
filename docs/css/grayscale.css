@@ -465,3 +465,37 @@ footer {
     margin-bottom: 20px;
   }
 }
+
+/* Additional CSS for the open-source logo */
+
+#app {
+  background-color: #161616 !important;
+  padding: 50px 0;
+}
+
+#app h1 {
+  color: #FFFFE1 !important;
+  margin-bottom: 30px;
+  text-align: center ;
+}
+
+#app .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #917304;
+  height: 40px;
+  border-radius: 20px;
+}
+
+#app  .card-body {
+  padding: 20px;
+}
+
+/* Additional CSS for the app image */
+.app-img {
+  width: 70%; /* Adjust the size as needed */
+  height: auto; /* Adjust the size as needed */
+  margin: 0 auto; /* Center the image */
+  border-radius: 10px;
+  margin-top: 20px;
+}

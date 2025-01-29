@@ -25,6 +25,7 @@
 | 1        | Lipo Batterie 3s 2200mah        | ![Lipo Batterie 3s 2200mah](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(3).png?raw=true)           |
 | 1        | batterei lipo voltage level indicateur   | ![batterei lipo voltage level indicateur](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(4).png?raw=true)      |
 | 2        | Electrical Speed Control        | ![Electrical Speed Control](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(6).png?raw=true)                                   |
+| 1        | Net        | ![Net](https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/image%20(7).png?raw=true)                                   |
 
 ## Contribution
 <p align="center">

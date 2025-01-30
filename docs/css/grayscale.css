@@ -499,3 +499,49 @@ footer {
   border-radius: 10px;
   margin-top: 20px;
 }
+
+/* Additional CSS for the coach section */
+#coach .flip-card {
+  margin: 0 auto; /* Center the flip card */
+}
+/* Additional CSS for the app image */
+.app-img {
+  width: 70%; /* Adjust the size as needed */
+  height: auto; /* Adjust the size as needed */
+  margin: 0 auto; /* Center the image */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Additional CSS for the about section */
+.about-section .prob {
+  margin-top: 20px;
+}
+
+.about-section .about-img {
+  width: 50%; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 0; /* Align to the right */
+}
+
+/* Additional CSS for the about section */
+.features-section .project-text {
+  padding: 20px;
+}
+
+.features-section .custom-margin {
+  margin-top: 20px;
+}
+
+/* Responsive text adjustments */
+@media (max-width: 768px) {
+  .features-section .text-lg-left {
+    text-align: center !important;
+  }
+  .features-section .text-lg-right {
+    text-align: center !important;
+  }
+  .features-section .custom-margin {
+    margin-top: 10px;
+  }
+}

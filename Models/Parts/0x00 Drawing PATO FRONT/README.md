@@ -11,7 +11,7 @@
 
 <div align="left">
   <h2>STL File Link:</h2>
-  <p>You can view the 3D model directly from the repository by clicking <a href="" target="_blank">this link</a>.</p>
+  <p>You can view the 3D model directly from the repository by clicking <a href="https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/Models/Parts/0x00%20Drawing%20PATO%20FRONT/PATO%20FRONT.stl" target="_blank">this link</a>.</p>
 </div>
 
 <div align="left">

@@ -5,7 +5,7 @@
 <div align="left">
   <h2>Drawing PNG:</h2>
   <p align="center">
-    <img src="" alt="Robot Base Drawing" width="1000">
+    <img src="https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/Models/Parts/0x01%20Drawing%20PATO%20MIDDLE%20RIGTH/Drawing%20PATO%20MIDDLE%20RIGTH%20.png" alt="Robot Base Drawing" width="1000">
   </p>
 </div>
 

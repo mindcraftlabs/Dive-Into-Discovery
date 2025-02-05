@@ -5,7 +5,7 @@
 <div align="left">
   <h2>Drawing PNG:</h2>
   <p align="center">
-    <img src="https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/Models/Parts/0x00%20Drawing%20PATO%20FRONT/Drawing%20PATO%20FRONT.png" alt="Robot Base Drawing" width="1000">
+    <img src="https://github.com/mindcraftlabs/Dive-Into-Discovery/blob/main/Models/Parts/0x12%20Drawing%20Berring%20Support/Drawing%20Berring%20Support.png" alt="Robot Base Drawing" width="1000">
   </p>
 </div>
 
@@ -16,7 +16,7 @@
 
 <div align="left">
   <h2>Onshape File Link:</h2>
-  <p>You can view the 3D model on Onshape by clicking <a href="https://cad.onshape.com/documents/6f709c2fe39887f648658f9d/w/db1336aba69d66ab0939dcbe/e/6ce4860ee07f7aeaaa25d667" target="_blank">this link</a>.</p>
+  <p>You can view the 3D model on Onshape by clicking <a href="https://cad.onshape.com/documents/6f709c2fe39887f648658f9d/w/db1336aba69d66ab0939dcbe/e/2b233ee9ae1f91de484be717" target="_blank">this link</a>.</p>
 </div>
 
 <div align="left">

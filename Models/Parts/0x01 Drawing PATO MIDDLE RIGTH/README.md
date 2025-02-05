@@ -16,7 +16,7 @@
 
 <div align="left">
   <h2>Onshape File Link:</h2>
-  <p>You can view the 3D model on Onshape by clicking <a href="https://cad.onshape.com/documents/6f709c2fe39887f648658f9d/w/db1336aba69d66ab0939dcbe/e/6ce4860ee07f7aeaaa25d667" target="_blank">this link</a>.</p>
+  <p>You can view the 3D model on Onshape by clicking <a href="https://cad.onshape.com/documents/6f709c2fe39887f648658f9d/w/db1336aba69d66ab0939dcbe/e/be5842695299be1ba7375e09" target="_blank">this link</a>.</p>
 </div>
 
 <div align="left">

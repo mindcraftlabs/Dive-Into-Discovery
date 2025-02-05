@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>PATO FRONT</h1>
+  <h1>Shaft Support</h1>
 </div>
 
 <div align="left">

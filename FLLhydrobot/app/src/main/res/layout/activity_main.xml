@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- WebView for video stream -->
+    <WebView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Fragment container -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+
+    <!-- Header with Auto Detect and Connect Buttons (Initially Hidden) -->
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="visible"> <!-- Initially hidden -->
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#000080"
+            android:text="Connect"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnAutoDetect"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#000080"
+            android:text="Auto Detect"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <!-- Toggle Button for App Title -->
+    <Button
+        android:id="@+id/btnToggleAppTitle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:elevation="4dp"
+        android:backgroundTint="#000080"
+        android:text="☰"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Joystick -->
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp">
+
+        <!-- Joystick Background -->
+        <ImageView
+            android:id="@+id/joystickBackground"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/joystick_background"
+            android:scaleType="fitCenter" />
+
+        <!-- Joystick Thumb -->
+        <ImageView
+            android:id="@+id/joystickThumb"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/joystick_thumb" />
+    </RelativeLayout>
+</RelativeLayout>
